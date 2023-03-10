@@ -11,11 +11,11 @@ int main(void)
 	int p, n;
 	float r, si;
 
-	printf("Enter value of p: \n");
+	printf("Enter value of p: ");
 	scanf("%d", &p);
-	printf("Enter value of n: \n");
+	printf("Enter value of n: ");
 	scanf("%d", &n);
-	printf("Enter value of r: \n");
+	printf("Enter value of r: ");
 	scanf("%f", &r);
 	si = p * n * r / 100;
 	printf("The value of the simple interest is: %f\n", si);
